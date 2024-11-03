@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|c:\\users\\kausa\\source\\repos\\subproject_02_movieapp\\subproject_02_movieapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|solutionrelative:subproject_02_movieapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|c:\\users\\kausa\\source\\repos\\subproject_02_movieapp\\subproject_02_movieapp\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|solutionrelative:subproject_02_movieapp\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61066C1B-AF82-4681-B62F-18E7F5B9C382}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\kausa\\source\\repos\\subproject_02_movieapp\\dataaccesslayer\\repository\\movierepository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61066C1B-AF82-4681-B62F-18E7F5B9C382}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\movierepository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61066C1B-AF82-4681-B62F-18E7F5B9C382}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\kausa\\source\\repos\\subproject_02_movieapp\\dataaccesslayer\\repository\\movierepository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61066C1B-AF82-4681-B62F-18E7F5B9C382}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\movierepository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|c:\\users\\kausa\\source\\repos\\subproject_02_movieapp\\subproject_02_movieapp\\dtomodels\\moviedtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|solutionrelative:subproject_02_movieapp\\dtomodels\\moviedtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|c:\\users\\kausa\\source\\repos\\subproject_02_movieapp\\subproject_02_movieapp\\subproject_02_movieapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|solutionrelative:subproject_02_movieapp\\subproject_02_movieapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|c:\\users\\kausa\\source\\repos\\subproject_02_movieapp\\subproject_02_movieapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|solutionrelative:subproject_02_movieapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61066C1B-AF82-4681-B62F-18E7F5B9C382}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\kausa\\source\\repos\\subproject_02_movieapp\\dataaccesslayer\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61066C1B-AF82-4681-B62F-18E7F5B9C382}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|c:\\users\\kausa\\source\\repos\\subproject_02_movieapp\\subproject_02_movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|solutionrelative:subproject_02_movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|c:\\users\\kausa\\source\\repos\\subproject_02_movieapp\\subproject_02_movieapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F2C65B-1229-43FB-9DE5-043D9C8D7272}|SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj|solutionrelative:subproject_02_movieapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "SUbProject_02_MovieApp\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "SUbProject_02_MovieApp\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAwFUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:10:17.162Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SUbProject_02_MovieApp.http",
+              "DocumentMoniker": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp.http",
+              "RelativeDocumentMoniker": "SUbProject_02_MovieApp\\SUbProject_02_MovieApp.http",
+              "ToolTip": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp.http",
+              "RelativeToolTip": "SUbProject_02_MovieApp\\SUbProject_02_MovieApp.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-03T21:21:23.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\appsettings.json",
+              "RelativeDocumentMoniker": "SUbProject_02_MovieApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\appsettings.json",
+              "RelativeToolTip": "SUbProject_02_MovieApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T21:16:52.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "SUbProject_02_MovieApp\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "SUbProject_02_MovieApp\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:48:30.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\DataAccessLayer\\Repository\\MovieRepository\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\MovieRepository\\MovieRepository.cs",
+              "ToolTip": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\DataAccessLayer\\Repository\\MovieRepository\\MovieRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\MovieRepository\\MovieRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwD8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:09:47.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\DataAccessLayer\\Repository\\MovieRepository\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\MovieRepository\\IMovieRepository.cs",
+              "ToolTip": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\DataAccessLayer\\Repository\\MovieRepository\\IMovieRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\MovieRepository\\IMovieRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwBEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:09:31.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\DTOModels\\MovieDTOs\\MovieDTO.cs",
+              "RelativeDocumentMoniker": "SUbProject_02_MovieApp\\DTOModels\\MovieDTOs\\MovieDTO.cs",
+              "ToolTip": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\DTOModels\\MovieDTOs\\MovieDTO.cs",
+              "RelativeToolTip": "SUbProject_02_MovieApp\\DTOModels\\MovieDTOs\\MovieDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:44:43.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovieDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\DataAccessLayer\\MovieDBContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\MovieDBContext.cs",
+              "ToolTip": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\DataAccessLayer\\MovieDBContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\MovieDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:39:44.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\Program.cs",
+              "RelativeDocumentMoniker": "SUbProject_02_MovieApp\\Program.cs",
+              "ToolTip": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\Program.cs",
+              "RelativeToolTip": "SUbProject_02_MovieApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:37:23.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SUbProject_02_MovieApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SUbProject_02_MovieApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:07:27.247Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
