@@ -1,5 +1,6 @@
 using DataAccessLayer;
 using DataAccessLayer.Repository.MovieRepository;
+using DataAccessLayer.Repository.NewFolder;
 using DataAccessLayer.Repository.UserRepository;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,7 @@ builder.Services.AddDbContext<MovieDBContext>(options =>
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+builder.Services.AddScoped<INotesRepository, NotesRepository>();
 
 // Add services to the container.
 

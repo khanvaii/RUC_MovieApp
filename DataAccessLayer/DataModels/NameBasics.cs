@@ -14,5 +14,6 @@ namespace DataAccessLayer.DataModels
         public string DeathYear { get; set; }
         public string PrimaryProfession { get; set; }
         public string KnownforTitles { get; set; }
+        public ICollection<title_principals> Title_Principals { get; set; }
     }
 }

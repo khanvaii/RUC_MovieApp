@@ -18,6 +18,33 @@
   },
   {
     "ContainingType": "SUbProject_02_MovieApp.Controllers.MovieController",
+    "Method": "SearchMoviesByActorName",
+    "RelativePath": "api/movie/actorname/{ActorName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ActorName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "SearchMoviesByActorName"
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.MovieController",
     "Method": "GetAllMoviesByGenre",
     "RelativePath": "api/movie/genre/{Genre}",
     "HttpMethod": "GET",
@@ -72,7 +99,7 @@
   },
   {
     "ContainingType": "SUbProject_02_MovieApp.Controllers.MovieController",
-    "Method": "SearchMovies",
+    "Method": "SearchMoviesBySubstring",
     "RelativePath": "api/movie/search/{substring}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -95,7 +122,182 @@
       }
     ],
     "ReturnTypes": [],
-    "EndpointName": "SearchMovies"
+    "EndpointName": "SearchMoviesBySubstring"
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.MovieController",
+    "Method": "SearchSimilarMovies",
+    "RelativePath": "api/movie/similar/{MovieId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MovieId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "SearchSimilarMovies"
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.NotesController",
+    "Method": "AddNote",
+    "RelativePath": "api/Notes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Userid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MovieId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Notes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.NotesController",
+    "Method": "GetAllMoviesByMovie",
+    "RelativePath": "api/Notes/{Movie}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Movie",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pagesize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllMoviesByMovie"
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.NotesController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Notes/delete/{Userid}/{MovieId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Userid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "MovieId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.NotesController",
+    "Method": "GetAllMoviesByUser",
+    "RelativePath": "api/Notes/notes/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pagesize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllMoviesByUser"
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.NotesController",
+    "Method": "GetAllNotesForUserandMovie",
+    "RelativePath": "api/Notes/notes/{UserId}/{MovieId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "MovieId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.NotesController",
+    "Method": "UpdateNote",
+    "RelativePath": "api/Notes/notes/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "newNoteContent",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "SUbProject_02_MovieApp.Controllers.UserController",

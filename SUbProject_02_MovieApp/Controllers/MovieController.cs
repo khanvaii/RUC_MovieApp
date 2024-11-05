@@ -100,5 +100,61 @@ namespace SUbProject_02_MovieApp.Controllers
             }
             return Ok(movie);
         }
+        [HttpGet("actorname/{ActorName}", Name = nameof(SearchMoviesByActorName))]
+        public async Task<IActionResult> SearchMoviesByActorName(string ActorName, int page = 0, int pageSize = 10)
+        {
+            if (string.IsNullOrWhiteSpace(ActorName))
+            {
+                return BadRequest("ActorName is required.");
+            }
+
+            var movies = await _movieRepository.SearchMoviesByActorName(ActorName, page, pageSize);
+
+            var numberOfMovies = await _movieRepository.CountMoviesByActorName(ActorName);
+
+            if (movies == null || !movies.Any())
+            {
+                return NotFound($"No movies found for actor: {ActorName}");
+            }
+
+            var movieDtos = movies.Select(movie => new MovieDTO
+            {
+                tconst = GetUrl("GetMovieById", args: new { id = movie.tconst }),
+                primarytitle = movie.primarytitle,
+                startyear = movie.startyear
+
+            }).ToList();
+
+            var result = CreatePaging(nameof(SearchMoviesByActorName), page, pageSize, numberOfMovies, movieDtos, new { ActorName });
+            return Ok(result);
+        }
+        [HttpGet("similar/{MovieId}", Name = nameof(SearchSimilarMovies))]
+        public async Task<IActionResult> SearchSimilarMovies(string MovieId, int page = 0, int pageSize = 10)
+        {
+            if (string.IsNullOrWhiteSpace(MovieId))
+            {
+                return BadRequest("MovieId is required.");
+            }
+
+            var movies = await _movieRepository.SearchSimilarMovies(MovieId, page, pageSize);
+
+            var numberOfMovies = await _movieRepository.CountSimilarMovies(MovieId);
+
+            if (movies == null || !movies.Any())
+            {
+                return NotFound($"No similar movies found");
+            }
+
+            var movieDtos = movies.Select(movie => new MovieDTO
+            {
+                tconst = GetUrl("GetMovieById", args: new { id = movie.tconst }),
+                primarytitle = movie.primarytitle,
+                startyear = movie.startyear
+
+            }).ToList();
+
+            var result = CreatePaging(nameof(SearchMoviesByActorName), page, pageSize, numberOfMovies, movieDtos, new { MovieId });
+            return Ok(result);
+        }
     }
 }

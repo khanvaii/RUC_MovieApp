@@ -16,5 +16,7 @@ namespace DataAccessLayer.DataModels
         public string startyear { get; set; }
         public int?  runtimeminutes { get; set; }
         public string genres { get; set; }
+        public ICollection<title_principals> title_Principals { get; set; }
+        public ICollection<Notes> Notes { get; set; }
     }
 }
