@@ -15,6 +15,9 @@ namespace DataAccessLayer
         public DbSet<NameBasics> nameBasics { get; set; }
         public DbSet<title_principals> title_Principals { get; set; }
         public DbSet<Notes> Notes { get; set; }
+        public DbSet<UserRating> UserRatings { get; set; }
+        public DbSet<TitleRating> titleRatings { get; set; }
+        public DbSet<BookMark> bookMarks { get; set; }
         public MovieDBContext(DbContextOptions<MovieDBContext> options)
             : base(options)
         {
@@ -47,6 +50,18 @@ namespace DataAccessLayer
             modelBuilder.Entity<Notes>().Property(x => x.UpdatedDate).HasColumnName("updated_at");
             modelBuilder.Entity<Notes>().HasOne(e => e.User).WithMany(t => t.Notes).HasForeignKey(e => e.UserId);
             modelBuilder.Entity<Notes>().HasOne(e => e.Movie).WithMany(t => t.Notes).HasForeignKey(e => e.Tconst);
+
+            modelBuilder.Entity<UserRating>().ToTable("user_rating");
+            modelBuilder.Entity<UserRating>().HasKey(e => new { e.tconst, e.user_id });
+            modelBuilder.Entity<UserRating>().HasOne(e => e.namebasics).WithMany(t => t.UserRatings).HasForeignKey(e => e.user_id);
+            modelBuilder.Entity<UserRating>().HasOne(e => e.Title_Basics).WithMany(t => t.UserRatings).HasForeignKey(e => e.tconst);
+
+            modelBuilder.Entity<TitleRating>().ToTable("title_ratings").HasNoKey();
+
+            modelBuilder.Entity<BookMark>().ToTable("bookmark");
+            modelBuilder.Entity<BookMark>().HasKey(e => new { e.title_id, e.userid });
+            modelBuilder.Entity<BookMark>().HasOne(e => e.User).WithMany(t => t.BookMarks).HasForeignKey(e => e.userid);
+            modelBuilder.Entity<BookMark>().HasOne(e => e.Movie).WithMany(t => t.BookMarks).HasForeignKey(e => e.title_id);
 
 
         }

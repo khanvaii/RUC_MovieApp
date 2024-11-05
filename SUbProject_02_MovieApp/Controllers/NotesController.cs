@@ -65,7 +65,7 @@ namespace SUbProject_02_MovieApp.Controllers
         }
 
         [HttpDelete("delete/{Userid}/{MovieId}")]
-        public async Task<IActionResult> DeleteUser(string Userid,string MovieId)
+        public async Task<IActionResult> DeleteNote(string Userid,string MovieId)
         {
             
             await _notesRepository.DeleteNotes(Userid, MovieId);

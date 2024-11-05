@@ -1,6 +1,9 @@
 using DataAccessLayer;
+using DataAccessLayer.Repository.BookMarkRepository;
 using DataAccessLayer.Repository.MovieRepository;
 using DataAccessLayer.Repository.NewFolder;
+using DataAccessLayer.Repository.BookMarkRepository;
+using DataAccessLayer.Repository.RatingRepository;
 using DataAccessLayer.Repository.UserRepository;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,6 +16,8 @@ builder.Services.AddDbContext<MovieDBContext>(options =>
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 builder.Services.AddScoped<INotesRepository, NotesRepository>();
+builder.Services.AddScoped<IRatingRepository, RatingRepository>();
+builder.Services.AddScoped<IBookmarkRepository, BookmarkRepository>();
 
 // Add services to the container.
 

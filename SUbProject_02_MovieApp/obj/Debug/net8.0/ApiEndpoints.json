@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.BookMarkController",
+    "Method": "AddBookmark",
+    "RelativePath": "api/bookmark",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.BookMarkController",
+    "Method": "RemoveBookmark",
+    "RelativePath": "api/bookmark/bookmark",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SUbProject_02_MovieApp.Controllers.MovieController",
     "Method": "GetMovieById",
     "RelativePath": "api/movie/{id}",
@@ -206,7 +248,7 @@
   },
   {
     "ContainingType": "SUbProject_02_MovieApp.Controllers.NotesController",
-    "Method": "DeleteUser",
+    "Method": "DeleteNote",
     "RelativePath": "api/Notes/delete/{Userid}/{MovieId}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -293,6 +335,74 @@
       },
       {
         "Name": "newNoteContent",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.RatingController",
+    "Method": "GetRatingForUserandMovie",
+    "RelativePath": "api/rating/{UserId}/{MovieId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "MovieId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.RatingController",
+    "Method": "RateMovie",
+    "RelativePath": "api/rating/rate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "rating",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.RatingController",
+    "Method": "DeleteRating",
+    "RelativePath": "api/rating/rate",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieId",
         "Type": "System.String",
         "IsRequired": false
       }

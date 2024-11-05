@@ -14,5 +14,6 @@ namespace DataAccessLayer.DataModels
         public string user_psw { get; set; }
         public DateTime created_date { get; set; }
         public ICollection<Notes> Notes { get; set; }
+        public ICollection<BookMark> BookMarks { get; set; }
     }
 }

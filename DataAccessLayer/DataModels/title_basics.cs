@@ -18,5 +18,7 @@ namespace DataAccessLayer.DataModels
         public string genres { get; set; }
         public ICollection<title_principals> title_Principals { get; set; }
         public ICollection<Notes> Notes { get; set; }
+        public ICollection<UserRating> UserRatings { get; set; }
+        public ICollection<BookMark> BookMarks { get; set; }
     }
 }
