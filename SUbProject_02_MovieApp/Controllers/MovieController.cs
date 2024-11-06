@@ -27,6 +27,7 @@ namespace SUbProject_02_MovieApp.Controllers
                 return BadRequest("Genre is not provided.");
             }
             var movies = await _movieRepository.GetAllMoviesByGenre(Genre, page, pagesize);
+            
             var numberofmovies = await _movieRepository.CountMoviesByGenre(Genre);
             if (movies == null || !movies.Any())
             {

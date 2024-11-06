@@ -43,3 +43,4 @@ C:\Users\kausa\source\repos\SUbProject_02_MovieApp\SUbProject_02_MovieApp\obj\De
 C:\Users\kausa\source\repos\SUbProject_02_MovieApp\SUbProject_02_MovieApp\obj\Debug\net8.0\SUbProject_02_MovieApp.pdb
 C:\Users\kausa\source\repos\SUbProject_02_MovieApp\SUbProject_02_MovieApp\obj\Debug\net8.0\SUbProject_02_MovieApp.genruntimeconfig.cache
 C:\Users\kausa\source\repos\SUbProject_02_MovieApp\SUbProject_02_MovieApp\obj\Debug\net8.0\ref\SUbProject_02_MovieApp.dll
+C:\Users\kausa\source\repos\SUbProject_02_MovieApp\SUbProject_02_MovieApp\obj\Debug\net8.0\SUbProject_02_MovieApp.sourcelink.json

@@ -25,7 +25,7 @@ namespace SUbProject_02_MovieApp.Controllers
             var existingUser = await _userRepository.getUserbyUsername(Userid);
             if (existingUser != null)
             {
-                return BadRequest("Username is already taken.");
+                return Conflict("Username is already taken.");
             }
 
             var passwordHash = HashPassword(Password);
