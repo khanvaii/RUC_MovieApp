@@ -18,6 +18,22 @@ namespace SUbProject_02_MovieApp.Controllers
             _movieRepository = movieRepository;
             _linkGenerator = linkGenerator;
         }
+        [HttpGet("allmovies", Name = nameof(GetAllMovies))]
+        public async Task<IActionResult> GetAllMovies( int page = 0, int pagesize = 10)
+        {
+
+            var movies = await _movieRepository.GetAllMovies( page, pagesize);
+
+            var numberofmovies = await _movieRepository.CountAllMovies();
+           
+            var result = CreatePaging(nameof(GetAllMovies),
+                page,
+                pagesize,
+                numberofmovies,
+            movies,
+            ' ');
+            return Ok(result);
+        }
         [HttpGet("genre/{Genre}",Name = nameof(GetAllMoviesByGenre))]
         public async Task<IActionResult> GetAllMoviesByGenre(string Genre, int page = 0, int pagesize = 10)
         {
@@ -40,6 +56,16 @@ namespace SUbProject_02_MovieApp.Controllers
             movies,
                 new { Genre });
             return Ok(result);
+        }
+        [HttpGet("genre", Name = nameof(GetAllGenre))]
+        public async Task<IActionResult> GetAllGenre()
+        {
+
+            
+            var genre = await _movieRepository.GetAllGenres();
+
+            
+            return Ok(genre);
         }
         [HttpGet("releaseyear/{ReleaseYear}", Name = "GetAllMoviesByReleaseYear")]
         public async Task<IActionResult> GetAllMoviesByReleaseYear(string ReleaseYear, int page = 0, int pagesize = 10)

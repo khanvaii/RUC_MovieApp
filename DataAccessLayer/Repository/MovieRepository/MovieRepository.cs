@@ -20,6 +20,11 @@ namespace DataAccessLayer.Repository.MovieRepository
         {
             return await _dbContext.title_basics.Where(m => m.genres.ToLower() == Genre.ToLower()) 
             .CountAsync();
+        } 
+        public async Task<int> CountAllMovies()
+        {
+            return await _dbContext.title_basics
+            .CountAsync();
         }
         public async Task<int> CountMoviesByReleaseYear(string ReleaseYear)
         {
@@ -49,6 +54,25 @@ namespace DataAccessLayer.Repository.MovieRepository
                 .Where(m => m.genres.ToLower() == Genre.ToLower())
                 .Skip(page * pagesize)
                 .Take(pagesize)
+                .ToListAsync();
+        }
+        public async Task<IEnumerable<Genres>> GetAllGenres()
+        {
+            return await _dbContext.genres.ToListAsync();
+        }
+        public async Task<IEnumerable<title_basics>> GetAllMovies(int page, int pagesize)
+        {
+            return await _dbContext.title_basics
+                .Skip(page * pagesize)
+                .Take(pagesize)
+                .Select(movie => new title_basics
+                {
+                    tconst = movie.tconst.Trim(),
+                    primarytitle = movie.primarytitle,
+                    startyear = movie.startyear,
+                    genres = movie.genres,
+                   
+                })
                 .ToListAsync();
         }
         public async Task<IEnumerable<title_basics>> GetAllMoviesByReleaseYear(string ReleaseYear, int page, int pagesize)

@@ -10,6 +10,6 @@ namespace DataAccessLayer.DataModels
     public class Genres
     {
         public int Genreid { get; set; }
-        public int GenreName { get; set; }
+        public string GenreName { get; set; }
     }
 }

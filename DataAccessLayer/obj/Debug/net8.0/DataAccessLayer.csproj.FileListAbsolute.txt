@@ -10,3 +10,4 @@ C:\Users\kausa\source\repos\SUbProject_02_MovieApp\DataAccessLayer\obj\Debug\net
 C:\Users\kausa\source\repos\SUbProject_02_MovieApp\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
 C:\Users\kausa\source\repos\SUbProject_02_MovieApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
 C:\Users\kausa\source\repos\SUbProject_02_MovieApp\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\Users\kausa\source\repos\SUbProject_02_MovieApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json

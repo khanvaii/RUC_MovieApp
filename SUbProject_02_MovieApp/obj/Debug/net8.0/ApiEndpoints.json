@@ -87,6 +87,39 @@
   },
   {
     "ContainingType": "SUbProject_02_MovieApp.Controllers.MovieController",
+    "Method": "GetAllMovies",
+    "RelativePath": "api/movie/allmovies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pagesize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllMovies"
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.MovieController",
+    "Method": "GetAllGenre",
+    "RelativePath": "api/movie/genre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllGenre"
+  },
+  {
+    "ContainingType": "SUbProject_02_MovieApp.Controllers.MovieController",
     "Method": "GetAllMoviesByGenre",
     "RelativePath": "api/movie/genre/{Genre}",
     "HttpMethod": "GET",

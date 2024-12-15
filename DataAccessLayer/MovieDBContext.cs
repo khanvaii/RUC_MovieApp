@@ -18,6 +18,7 @@ namespace DataAccessLayer
         public DbSet<UserRating> UserRatings { get; set; }
         public DbSet<TitleRating> titleRatings { get; set; }
         public DbSet<BookMark> bookMarks { get; set; }
+        public DbSet<Genres> genres { get; set; }
         public MovieDBContext(DbContextOptions<MovieDBContext> options)
             : base(options)
         {
@@ -62,6 +63,10 @@ namespace DataAccessLayer
             modelBuilder.Entity<BookMark>().HasKey(e => new { e.title_id, e.userid });
             modelBuilder.Entity<BookMark>().HasOne(e => e.User).WithMany(t => t.BookMarks).HasForeignKey(e => e.userid);
             modelBuilder.Entity<BookMark>().HasOne(e => e.Movie).WithMany(t => t.BookMarks).HasForeignKey(e => e.title_id);
+
+            modelBuilder.Entity<Genres>().HasKey(u => u.Genreid);
+            modelBuilder.Entity<Genres>().Property(x => x.Genreid).HasColumnName("genre_id");
+            modelBuilder.Entity<Genres>().Property(x => x.GenreName).HasColumnName("genre_name");
 
 
         }
