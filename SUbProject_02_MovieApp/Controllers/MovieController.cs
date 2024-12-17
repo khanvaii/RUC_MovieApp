@@ -108,7 +108,8 @@ namespace SUbProject_02_MovieApp.Controllers
 
             var movieDtos = movies.Select(movie => new MovieDTO
             {
-                tconst = GetUrl("GetMovieById", args: new { id = movie.tconst }),
+                tconsturl = GetUrl("GetMovieById", args: new { id = movie.tconst }),
+                tconst = movie.tconst,
                 primarytitle = movie.primarytitle,
                 startyear = movie.startyear
                
@@ -146,7 +147,8 @@ namespace SUbProject_02_MovieApp.Controllers
 
             var movieDtos = movies.Select(movie => new MovieDTO
             {
-                tconst = GetUrl("GetMovieById", args: new { id = movie.tconst }),
+                tconsturl = GetUrl("GetMovieById", args: new { id = movie.tconst }),
+               tconst = movie.tconst,
                 primarytitle = movie.primarytitle,
                 startyear = movie.startyear
 

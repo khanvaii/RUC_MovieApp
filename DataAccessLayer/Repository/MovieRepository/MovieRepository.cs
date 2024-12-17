@@ -1,5 +1,6 @@
 ﻿using DataAccessLayer.DataModels;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -110,7 +111,8 @@ namespace DataAccessLayer.Repository.MovieRepository
                 join tp in _dbContext.title_Principals on nb.nconst equals tp.nconst
                 join tb in _dbContext.title_basics on tp.tconst equals tb.tconst
                 select tb        
-                ).ToListAsync();
+                
+                ).Distinct().Skip(page* pagesize).Take(pagesize).ToListAsync();
         }
 
         public async Task<title_basics> GetMovieByIdAsync(string id)
