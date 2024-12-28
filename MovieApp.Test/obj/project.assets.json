@@ -6797,24 +6797,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kausa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ivans\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\MovieApp.Test\\MovieApp.Test.csproj",
+      "projectUniqueName": "C:\\Users\\ivans\\Source\\Repos\\RUC_MovieAppdone\\MovieApp.Test\\MovieApp.Test.csproj",
       "projectName": "MovieApp.Test",
-      "projectPath": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\MovieApp.Test\\MovieApp.Test.csproj",
-      "packagesPath": "C:\\Users\\kausa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\MovieApp.Test\\obj\\",
+      "projectPath": "C:\\Users\\ivans\\Source\\Repos\\RUC_MovieAppdone\\MovieApp.Test\\MovieApp.Test.csproj",
+      "packagesPath": "C:\\Users\\ivans\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivans\\Source\\Repos\\RUC_MovieAppdone\\MovieApp.Test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kausa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ivans\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6829,11 +6824,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\ivans\\Source\\Repos\\RUC_MovieAppdone\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\ivans\\Source\\Repos\\RUC_MovieAppdone\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj": {
-              "projectPath": "C:\\Users\\kausa\\source\\repos\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj"
+            "C:\\Users\\ivans\\Source\\Repos\\RUC_MovieAppdone\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj": {
+              "projectPath": "C:\\Users\\ivans\\Source\\Repos\\RUC_MovieAppdone\\SUbProject_02_MovieApp\\SUbProject_02_MovieApp.csproj"
             }
           }
         }
@@ -6890,7 +6885,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
